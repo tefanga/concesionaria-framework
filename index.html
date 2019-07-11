@@ -10,7 +10,47 @@
         crossorigin="anonymous"></script>
     </head>
     <body>
-        <div>
+        <div class="ui left aligned container">
+        <div class="ui two column divided grid">
+            <div class="streched row">
+                <div class="column">
+                    <div class="ui segment">
+                            <div class="ui card">
+                                    <div class="content">
+                                      <div class="header">Concesionaria</div>
+                                    </div>
+                                    <div class="content">
+                                      <div class="extra content">
+                                      <button class="ui button">Todas las sucursales</button>
+                                      <button class="ui button">Agregar sucursal</button>
+                                      <button class="ui button">Buscar sucursal</button>
+                                    </div>
+                                  </div>
+                            </div>
+                            <div class="ui card">
+                                    <div class="content">
+                                      <div class="header">Autos</div>
+                                    </div>
+                                    <div class="content">
+                                      <div class="extra content">
+                                      <button class="ui button">Todas los autos</button>
+                                      <button class="ui button">Agregar auto</button>
+                                    </div>
+                                  </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="column">
+                <div class="ui segment">
+                logos
+                </div>
+                <div class="ui segment">
+                sucursales
+                </div>
+                </div>
+            </div>
+        </div>
+      </div>
             <form>
                 <p>Concesionaria</p>
                 <input type="text" placeholder="Marca del auto" name="mauto" id="marcaauto"><br>
@@ -34,6 +74,7 @@
                     <td>Auto mas economico</td><td id="automaseconomico" class="estadisticastd">Ninguno</td>
                 </tr>
             </table>
+        </div>
         </div>
         <script src="script.js" rel="javascript" type="text/javascript"></script>
         <script src="semantic/semantic.js"></script>
