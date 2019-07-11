@@ -20,7 +20,7 @@ function agregarAutoBoton() {
 }
 
 function agregarAutosCargados(auto){
-    document.getElementById("autoscargados").innerHTML += "<p class=\"marcaAuto\">" + auto.marca + "</p><p class=\"precioAuto\">Precio: $" + auto.precio + "</p>"
+    document.getElementById("autoscargados").innerHTML += "<h3 class=\"marcaAuto\">" + auto.marca + "</h3><h3 class=\"precioAuto\">Precio: $" + auto.precio + "</h3>"
 }
 
 function calcularEstadisticas () {
